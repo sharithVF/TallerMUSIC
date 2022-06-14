@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 14rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#container1 {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container1-text {
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#degradado {
+    background: linear-gradient(#ff812dc0,#ca1d6e,#ff0084);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+p {
+    margin: 1rem;
+    font-size: 22px;
+}
+
+#button1 {
+    width: 200px;
+    height: 60px;
+    margin-top: 1.3rem;
+    background-color: #fd4c5b;
+    color: #fff;
+    border: 0;
+    border-radius: 6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#img1 {
+    width: 450px;
+    margin-left: 3.3rem;
+}
+
+
+#container2 {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2-text {
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#degradado {
+    background: linear-gradient(#ff812dc0,#ca1d6e,#ff0084);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+p {
+    margin: 1rem;
+    font-size: 22px;
+}
+
+#button2 {
+    width: 200px;
+    height: 60px;
+    margin-top: 1.3rem;
+    background-color: #fd4c5b;
+    color: #fff;
+    border: 0;
+    border-radius: 6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#img2 {
+    width: 455px;
+    margin-right: 5rem;
+}
+
+
+#container3 {
+    width: 100%;
+    height: 95%;
+    margin-top: 6rem;
+    background: url(../images/john-raptis.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:flex-end;
+}
+
+#container3-text {
+    width: 30%;
+    margin: 8rem;
+    margin-left: 55rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h2-3 {
+    margin: 1rem;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.p3 {
+    margin: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+#button3 {
+    width: 200px;
+    height: 60px;
+    margin-top: 1.3rem;
+    background-color: #fd4c5b;
+    color: #fff;
+    border: 0;
+    border-radius: 6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 40%;
+    background-color: #fd4d5c;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1.6rem; */
+}
+
+.listas {
+    margin-right: 18rem;
+}
+
+div ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    margin-top: 8%;
+}
+
+#footer-raya {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fd4d5c;
+}
+
+#raya {
+    width: 1530px;
+    height: 1px;
+    background: #ffffff;
+}
+
+.divfooter{
+    width: 100%;
+    height: 10%;
+    background-color: #fd4d5c;
+    color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 68rem;
+}
+
+.divfooter p{
+    font-size: 15px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
